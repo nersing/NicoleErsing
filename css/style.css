@@ -20,6 +20,8 @@ p {
 }
 
 
+
+
 .smallcontainer {
   min-height: 100px;
   line-height: 0;
@@ -85,14 +87,24 @@ p {
   font-size: 20px
 }
 
-#logo{
-  font: 400 130px/0.8 'Cookie', Helvetica, sans-serif;
+h1{
+ font-family: 'Sacramento', cursive;
   text-shadow: 4px 4px 3px rgba(0,0,0,0.1); 
   font-weight: normal; 
   font-style: normal;
-  font-size: 250px;
-  /* margin-top: 100px; */
+  font-size: 280px;
+  white-space: nowrap;/*Evitar saltos de línea*/
+  overflow: hidden;
+  width: 30em;
+  animation: keyframes 25s 1; 
+
 }
+
+@keyframes keyframes{ 
+  
+  from{ width: 0px;} 
+  
+} 
 
 
 h4,
