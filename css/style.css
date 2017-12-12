@@ -86,11 +86,12 @@ p {
 }
 
 #logo{
-  font-family: 'GreatVibesRegular'; 
+  font: 400 130px/0.8 'Cookie', Helvetica, sans-serif;
+  text-shadow: 4px 4px 3px rgba(0,0,0,0.1); 
   font-weight: normal; 
   font-style: normal;
-  font-size: 150px;
-  margin-top: 100px
+  font-size: 250px;
+  /* margin-top: 100px; */
 }
 
 
@@ -110,8 +111,21 @@ h3{
 
 
 #contactme{
-  text-align:center
+  text-align:center;
+  font-size: 18px;
 }
+
+.fa-github,
+.fa-envelope-o,
+.fa-linkedin-square{
+  margin-right: 10px;
+  margin-left: 10px
+}
+
+
+
+
+
 
 
 
