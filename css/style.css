@@ -37,6 +37,8 @@ p {
   color: rgba(255,255,255,.9);
 }
 
+.parallax img { width: 100%; }
+
 .smallcontainer {
   min-height: 100px;
   line-height: 0;
@@ -119,6 +121,14 @@ h3{
   font-family: 'BonvenoCFLight'; 
   font-weight: normal; 
   font-style: normal;
+}
+
+.projects{
+  text-align: center;
+  /* background-color: rgba(94, 163, 238, .3);
+  padding-top: 10px;
+  padding-bottom: 10px; */
+  
 }
 
 
