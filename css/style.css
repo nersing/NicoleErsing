@@ -82,7 +82,7 @@ p {
   font-family: 'GlacialIndifferenceRegular', GillSans, Calibri, Trebuchet, sans-serif; 
   font-weight: normal; 
   font-style: normal; 
-  font-size: 16px;
+  font-size: 20px;
 }
 
 .bio{
@@ -131,6 +131,14 @@ h3{
   
 }
 
+.modal-content{
+  text-align: center;
+  font-size: 18px;
+
+}
+.modal-trigger{
+  text-align: center;
+}
 
 #contactme{
   text-align:center;
@@ -139,9 +147,22 @@ h3{
 
 .fa-github,
 .fa-envelope-o,
-.fa-linkedin-square{
+.fa-linkedin-square,
+.fa-file-text-o {
   margin-right: 10px;
-  margin-left: 10px
+  margin-left: 10px;
+}
+
+
+a:hover,
+center:hover { 
+  color: rgb(94, 163, 238);
+}
+
+.initalLogo{
+  font-family: 'Sacramento', cursive;
+  font-size: 40px;
+
 }
 
 
