@@ -78,7 +78,7 @@
 
   <div class="row">
 
-  <!-- Chews icon and modal -->
+  <!-- Chews Icon and Modal -->
     <div class="col s12 m4">
       <div class="icon-block">
         <h2 class="center blue-text text-lighten-1">
@@ -99,13 +99,13 @@
                     <a href="https://chewsapp.herokuapp.com/" target="_blank">View App</a>
               </div>
               <div class="modal-footer">
-                <a href="#" class="modal-action modal-close waves-effect waves-green btn-flat">X</a>
+                <a href="#!" class="modal-action modal-close waves-effect waves-blue btn-flat">X</a>
               </div>
             </div>
       </div>
     </div>
 
-  <!-- res.create icon and modal -->
+  <!-- res.create Icon and Modal -->
     <div class="col s12 m4">
       <div class="icon-block">
         <h2 class="center blue-text text-lighten-1">
@@ -126,13 +126,13 @@
             <a href="https://res-create.herokuapp.com" target="_blank">View App</a>
       </div>
       <div class="modal-footer">
-        <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">X</a>
+        <a href="#!" class="modal-action modal-close waves-effect waves-blue btn-flat">X</a>
       </div>
     </div>
       </div>
     </div>
 
-    <!-- Minions icon and modal -->
+    <!-- Minions Icon and Modal -->
     <div class="col s12 m4">
       <div class="icon-block">
         <h2 class="center blue-text text-lighten-1">
@@ -153,7 +153,7 @@
                 <a href="https://nersing.github.io/Minion_Game/" target="_blank">View App</a>
           </div>
           <div class="modal-footer">
-            <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">X</a>
+            <a href="#!" class="modal-action modal-close waves-effect waves-blue btn-flat">X</a>
           </div>
         </div>
 
@@ -172,30 +172,77 @@
   </div>
 
   <br>
+  
 
+  <!-- Next Row of APPs -->
   <div class="row">
     <div class="col s0 m2"></div>
+
+    <!-- Pinbox Logo and Modal -->
     <div class="col s12 m4">
       <div class="icon-block">
         <h2 class="center blue-text text-lighten-1">
           <i class="fa fa-map-pin" aria-hidden="true"></i>
         </h2>
+        <center>
+            <h5 class="center waves-effect waves-light modal-trigger" href="#modal4">Pinbox</h5>
+          </center>
+    
+        <!-- Modal Structure -->
+        <div id="modal4" class="modal">
+          <div class="modal-content">
+            <h4>Pinbox</h4>
+            <p>Pinbox allows users to save their search queries in a           savable, readable, and customizable pin environment. This       application was built using HTML/CSS, Bootstrap, Javascript,    and Firebase.
+                <br>
+                <br> Role: Frontend Developer.</p>
+                <a href="https://nersing.github.io/Pinbox/signin.html?mode=select" target="_blank">View App</a>
+          </div>
+          <div class="modal-footer">
+            <a href="#!" class="modal-action modal-close waves-effect waves-blue btn-flat">X</a>
+          </div>
+        </div>
+      </div>
+     </div>
 
-
-        <h5 class="center">Pinbox</h5>
+        <!-- <h5 class="center">Pinbox</h5>
         <p class="light"> Pinbox allows users to save their search queries in a savable, readable, and customizable pin environment. This application
           was built using HTML/CSS, Bootstrap, Javascript, and Firebase.
           <br> Role: Frontend Developer
         </p>
         <a href="https://nersing.github.io/Pinbox/signin.html?mode=select" target="_blank">View App</a>
       </div>
-    </div>
+    </div> -->
 
+    <!-- Train Scheduler Icon and Modal -->
     <div class="col s12 m4">
       <div class="icon-block">
         <h2 class="center blue-text text-lighten-1">
           <i class="fa fa-train" aria-hidden="true"></i>
         </h2>
+        <center>
+            <h5 class="center waves-effect waves-light modal-trigger" href="#modal5">Train Scheduler</h5>
+          </center>
+    
+        <!-- Modal Structure -->
+        <div id="modal5" class="modal">
+          <div class="modal-content">
+            <h4>Train Scheduler</h4>
+            <p>Using Moment.js, this application allows users to create        train destinations that will update their arrival and           departure. HTML/CSS, Javascript, and Firebase are also used     to develop this application.
+                <br>
+                <br> Independently Developed</p>
+                <a href="https://nersing.github.io/Train-Scheduler/" target="_blank">View App</a>
+          </div>
+          <div class="modal-footer">
+            <a href="#!" class="modal-action modal-close waves-effect waves-blue btn-flat">X</a>
+          </div>
+        </div>
+
+
+
+
+
+
+<!--         
         <h5 class="center">Train Scheduler</h5>
 
         <p class="light"> Using Moment.js, this application allows users to create train destinations that will update their arrival and departure.
@@ -204,9 +251,13 @@
         </p>
         <a href="https://nersing.github.io/Train-Scheduler/" target="_blank">View App</a>
       </div>
+    </div> -->
+    </div>
     </div>
     <div class="col s0 m2"></div>
   </div>
+  <br>
+  <br>
 
 
   <div class="parallax-container valign-wrapper">
@@ -282,6 +333,8 @@
     $('#modal1').modal();
     $('#modal2').modal();
     $('#modal3').modal();
+    $('#modal4').modal();
+    $('#modal5').modal();
 
 });
   </script>
