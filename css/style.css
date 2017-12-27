@@ -158,7 +158,7 @@ a:hover,
 center:hover,
 i:hover { 
   color: rgb(94, 163, 238);
-  cursor: pointer;
+  cursor: pointer; 
 }
 
 .initalLogo{
