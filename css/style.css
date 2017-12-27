@@ -155,8 +155,10 @@ h3{
 
 
 a:hover,
-center:hover { 
+center:hover,
+i:hover { 
   color: rgb(94, 163, 238);
+  cursor: pointer;
 }
 
 .initalLogo{
@@ -168,6 +170,7 @@ center:hover {
 
 .icon-block{
   text-align: center;
+ 
 }
 
 
