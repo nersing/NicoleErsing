@@ -110,21 +110,18 @@ h1{
 
 h4,
 h5{
-  /* font-family: 'BonvenoCFLight';  */
-  font-family: 'GlacialIndifferenceRegular', GillSans, Calibri, Trebuchet, sans-serif; 
+  font-family: 'BonvenoCFLight'; 
   font-weight: normal; 
   font-style: normal;
   text-align: center;
  
 }
 
-.contact{
-  font-family: 'Shadows Into Light Two', cursive;
-}
+
 
 h3{
-  font-family: 'Shadows Into Light Two', cursive;
-  /* font-family: 'BonvenoCFLight';  */
+ 
+  font-family: 'BonvenoCFLight'; 
   font-weight: normal; 
   font-style: normal;
 }
